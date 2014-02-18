@@ -3,6 +3,8 @@
 Deploy to Amazon Elastic Beanstalk without need to install Elastic Beanstalk command line tool.
 Really helpful on Continuous Integration servers.
 
+*If this tool was helpful for you, feel free to buy me a beer ;)* [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=kvasnicak.michal&url=https://github.com/michalkvasnicak/elasticbeanstalk-deployer&title=michalkvasnicak / elasticbeanstalk-deployer&language=php&tags=github&category=software)
+
 ## Requirements:
 * Git installed and configured
 * PHP >= 5.4

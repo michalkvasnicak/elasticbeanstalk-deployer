@@ -1,0 +1,16 @@
+{
+    "name" : "michalkvasnicak/elasticbeanstalk-deployer",
+    "description" : "Deploy to Amazon Elastic Beanstalk without need to install Command Line Tools",
+    "keywords" : ["amazon", "aws", "elastic beanstalk", "tool", "php", "deploy", "continous integration"],
+    "license" : "MIT",
+    "require" : {
+        "php" : ">=5.4"
+    },
+    "authors" : [
+        {
+            "name" : "Michal Kvasničák",
+            "homepage" : "http://kvasnicak.info"
+        }
+    ],
+    "bin" : ["git.aws-push.php"]
+}

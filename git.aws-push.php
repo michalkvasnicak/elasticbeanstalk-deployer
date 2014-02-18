@@ -109,7 +109,7 @@ class ElasticBeanstalkGitDeployer
 
         echo "Pushing application '$application' to environment '$environment'\n";
 
-        exec("git push -f $remote HEAD:refs/heads/master", $output, $return);
+        exec("git push -f $remote $commit:refs/heads/master", $output, $return);
 
         if ($return != 0) {
             throw new RuntimeException("Error in pushing to Amazon Elastic Beanstalk");

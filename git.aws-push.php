@@ -32,6 +32,7 @@ class ElasticBeanstalkGitDeployer
      * @var array
      */
     private static $regionsToEndpoint = [
+        'eu-central-1' => 'git.elasticbeanstalk.eu-central-1.amazonaws.com',
         'eu-west-1' => 'git.elasticbeanstalk.eu-west-1.amazonaws.com',
         'us-east-1' => 'git.elasticbeanstalk.us-east-1.amazonaws.com',
         'us-west-1' => 'git.elasticbeanstalk.us-west-1.amazonaws.com',
